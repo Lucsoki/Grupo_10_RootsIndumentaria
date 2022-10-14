@@ -1,5 +1,7 @@
 package com.example.rootsindumentaria.services;
 
+import com.example.rootsindumentaria.entities.Factura;
+import com.example.rootsindumentaria.repositories.BaseRepository;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,5 +1,6 @@
 package com.example.rootsindumentaria.services;
 
+import com.example.rootsindumentaria.repositories.BaseRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

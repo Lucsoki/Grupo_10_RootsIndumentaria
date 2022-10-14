@@ -70,9 +70,9 @@ public abstract class BaseServiceImpl<E,ID extends Serializable> implements Base
     @Transactional
     public E update(ID id, E entity) throws Exception {
         try {
-            Optional<E>entityOptional=baseRepository.findById(id);//en esta línea obtengo la entidad que quiero actualzar
-            E entityUpdate=entityOptional.get(); //en esta linea guardo la entity en un objeto de tipo generico"E" llamado entityUpdate
-            entityUpdate=baseRepository.save(entity);//en esta línea
+            Optional<E>entityOptional=baseRepository.findById(id);
+            E entityUpdate=entityOptional.get();
+            entityUpdate=baseRepository.save(entity);
             return entityUpdate;
         }catch(Exception e){
             throw new Exception(e.getMessage());

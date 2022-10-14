@@ -1,6 +1,6 @@
 package com.example.rootsindumentaria.services;
 
-import com.example.sportmode.entities.DetalleFactura;
+import com.example.rootsindumentaria.entities.DetalleFactura;
 
 public interface DetalleFacturaService extends BaseService<DetalleFactura,Long>{
 }

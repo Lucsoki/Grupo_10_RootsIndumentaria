@@ -1,7 +1,7 @@
 package com.example.rootsindumentaria.services;
 
-import com.example.sportmode.entities.DetalleFactura;
-import com.example.sportmode.repositories.BaseRepository;
+import com.example.rootsindumentaria.entities.DetalleFactura;
+import com.example.rootsindumentaria.repositories.BaseRepository;
 import org.springframework.stereotype.Service;
 
 @Service

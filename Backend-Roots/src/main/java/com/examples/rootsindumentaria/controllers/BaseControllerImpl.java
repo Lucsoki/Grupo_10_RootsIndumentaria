@@ -1,6 +1,5 @@
 package com.example.rootsindumentaria.controllers;
 
-import com.example.sportmode.services.BaseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;

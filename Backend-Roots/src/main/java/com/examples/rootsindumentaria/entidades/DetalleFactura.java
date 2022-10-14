@@ -1,4 +1,4 @@
-package entidades;
+package com.example.rootsindumentaria.entidades;
 
 import java.io.Serializable;
 
@@ -11,8 +11,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-import org.hibernate.envers.Audited;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -28,8 +26,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class DetalleFactura implements Serializable {
-
-    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

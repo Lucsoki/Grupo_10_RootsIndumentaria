@@ -1,4 +1,4 @@
-package entidades;
+package com.example.rootsindumentaria.entidades;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -33,14 +33,12 @@ import lombok.Setter;
 @Setter
 public class Factura implements Serializable {
 
-    private static final long serialVersionUID = 1L;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "fecha")
-    private String fecha;
+    private Date fecha;
 
     @Column(name = "numero")
     private int numero;
@@ -52,8 +50,7 @@ public class Factura implements Serializable {
     @JoinColumn(name = "fk_cliente")
     private Cliente cliente;
 
-    //@OneToMany(cascade =CascadeType.ALL, orphanRemoval = true)
-    //private List<DetalleFactura> detalles = new ArrayList <DetalleFactura>();
+
     @OneToMany(mappedBy = "factura",cascade = CascadeType.ALL, orphanRemoval = true)
     @Default
     private List<DetalleFactura> detalle = new ArrayList<DetalleFactura>();

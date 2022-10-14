@@ -50,7 +50,6 @@ public class Factura implements Serializable {
     @JoinColumn(name = "fk_cliente")
     private Cliente cliente;
 
-
     @OneToMany(mappedBy = "factura",cascade = CascadeType.ALL, orphanRemoval = true)
     @Default
     private List<DetalleFactura> detalle = new ArrayList<DetalleFactura>();

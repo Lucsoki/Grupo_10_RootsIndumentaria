@@ -1,6 +1,7 @@
 # Grupo_10_RootsIndumentaria
 Tienda de ropa
 Nuestro sitio es un E-comerce de ropa urbana unisex que ofrece calidad y precios accesibles a comparacion de otros negocios, ofrecemos ropa para todas las edades.
+
 #Trello
 
 https://trello.com/b/67y4CvbP/roots-backend

@@ -2,11 +2,11 @@
 Tienda de ropa
 Nuestro sitio es un E-comerce de ropa urbana unisex que ofrece calidad y precios accesibles a comparacion de otros negocios, ofrecemos ropa para todas las edades.
 
-#Trello
+# Trello
 
 https://trello.com/b/67y4CvbP/roots-backend
 
-#Descripcion de los integrantes:
+# Descripcion de los integrantes:
 
 Bruno Merino: Developer-Backend
 
@@ -35,7 +35,7 @@ Java
 C
 MySQL
 
-#Listado de sitios de referencia:
+# Listado de sitios de referencia:
 
 1. https://oxidomodaurbana.mercadoshops.com.ar/
 2. https://www.somoscity.com.ar/?gclid=CjwKCAjwx7GYBhB7EiwA0d8oe41aeMOt2_6sNF4o9lGX86deBD6uiMYzv4LoaLjIvV6FBUfQGt16uBoCMYcQAvD_BwE

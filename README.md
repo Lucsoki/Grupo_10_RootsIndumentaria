@@ -8,7 +8,9 @@ Nuestro sitio es un E-comerce de ropa urbana unisex que ofrece calidad y precios
 
 # Descripcion de los integrantes:
 
-Bruno Merino: Developer-Backend
+**Bruno Merino**(Developer-Backend)
+
+Hola tengo 24 años, estoy cursando la Tecnicatura en Programación, ya que me gusta la parte tecnologica y la parte de videojuegos. La programación me llamo la atención en mi ultimo año de secundaria.
 
 Tecnologías:
 Java
@@ -17,7 +19,9 @@ GIT
 MySQL
 Python
 
-Lucas Sosa: Developer-Scrum Master
+**Lucas Sosa**(Developer-Scrum Master)
+
+Tengo 21 años, desde chico soy apasionado por la tecnologia en general, la programacion aparecio en época de pandemia y decidi elegir este camino para mi futuro, hice un curso en Egg y decidi entrar en la tecnicatura, actualmente busco tener mas conocimiento en lenguajes para ya tener pasantias laborales.
 
 Tecnologías:
 Java: Medio.
@@ -25,15 +29,16 @@ MySql: Básico.
 Html: Básico.
 Css: Básico.
 
-Andres Riveros: Developer- Frontend
+**Andres Riveros**(Developer- Frontend)
 
-Tecnologias:
-HTML
-CSS
-JS
-Java
-C
-MySQL
+Hola, soy Andres, tengo 24 años, después de pasar por algunas carreras decidí probar con la programación y fue lo que más me llamó la atención. Comencé de manera autodidacta por videos de youtube y luego pude ingresar a la tecnicatura. Tengo un manejo medio/avanzado del inglés.
+
+Tecnologías:
+ Java(medio)
+ C (básico)
+ PHP(básico)
+ HTML, CSS(básico)
+ C++(básico)
 
 # Listado de sitios de referencia:
 

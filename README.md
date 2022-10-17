@@ -8,7 +8,7 @@ Nuestro sitio es un E-comerce de ropa urbana unisex que ofrece calidad y precios
 
 # Descripcion de los integrantes:
 
-**Bruno Merino**(Developer-Backend)
+**Bruno Merino**(Developer-Scrum Master)
 
 Hola tengo 24 años, estoy cursando la Tecnicatura en Programación, ya que me gusta la parte tecnologica y la parte de videojuegos. La programación me llamo la atención en mi ultimo año de secundaria.
 
@@ -19,7 +19,7 @@ GIT
 MySQL
 Python
 
-**Lucas Sosa**(Developer-Scrum Master)
+**Lucas Sosa**(Developer-Backend)
 
 Tengo 21 años, desde chico soy apasionado por la tecnologia en general, la programacion aparecio en época de pandemia y decidi elegir este camino para mi futuro, hice un curso en Egg y decidi entrar en la tecnicatura, actualmente busco tener mas conocimiento en lenguajes para ya tener pasantias laborales.
 

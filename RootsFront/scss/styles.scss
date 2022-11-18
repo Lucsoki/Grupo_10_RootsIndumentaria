@@ -1,0 +1,29 @@
+// variables
+@import "utilities/variables";
+@import "utilities/medias";
+@import "components/footer";
+@import "components/main";
+@import "utilities/mixins";
+@import "utilities/extend";
+@import "components/header";
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilo de body */
+body{
+    background-image: url(../img/mano.png);
+    background-size: 5rem;
+
+}
+/* Estilos nav */
+header{
+    .nav-link{
+    font-family: $estilo-letra; 
+    color: $color-letra;
+    font-weight: bold;
+    font-size: 1.6rem;
+    }
+}
+

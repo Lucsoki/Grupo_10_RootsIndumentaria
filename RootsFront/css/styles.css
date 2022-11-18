@@ -1,0 +1,290 @@
+@charset "UTF-8";
+@media screen and (min-width: 820px) {
+  main .imagenHombre {
+    height: 500px;
+    width: 400px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenMujer {
+    height: 500px;
+    width: 400px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenAccesorios {
+    height: 500px;
+    width: 400px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenNiño {
+    height: 500px;
+    width: 400px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenesPrincipal {
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem; } }
+
+@media screen and (min-width: 820px) {
+  main .frasePrincipal {
+    font-size: 4rem; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenesHombre {
+    height: 400px;
+    width: 300px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenesAccesorios {
+    height: 400px;
+    width: 300px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenesMujer {
+    height: 400px;
+    width: 300px; } }
+
+@media screen and (min-width: 820px) {
+  main .imagenesNiños {
+    height: 400px;
+    width: 300px; } }
+
+.letraNav, header .dropdown-item {
+  font-family: "Medula One";
+  color: #f1eded;
+  font-size: 1.3rem; }
+
+.gridPaginap, .imagenesPrincipal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-areas: "imagenMujer imagenHombre"
+ "frase frase"
+ "imgenNiño imgenAccesorios";
+  align-items: center; }
+
+.imagenesFormato, .imagenHombre, .imagenMujer, .imagenNiño, .imagenAccesorios {
+  height: 250px;
+  width: 170px;
+  object-fit: cover; }
+
+.imagenesFormato2, main section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover; }
+
+/* estilo footer*/
+footer .copyRight {
+  background-color: rgba(0, 0, 0, 0.801);
+  font-family: "Medula One";
+  font-size: 1.2rem;
+  color: #f1eded;
+  text-align: center; }
+
+.letraNav, header .dropdown-item {
+  font-family: "Medula One";
+  color: #f1eded;
+  font-size: 1.3rem; }
+
+.gridPaginap, .imagenesPrincipal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-areas: "imagenMujer imagenHombre"
+ "frase frase"
+ "imgenNiño imgenAccesorios";
+  align-items: center; }
+
+.imagenesFormato, .imagenHombre, .imagenMujer, .imagenNiño, .imagenAccesorios {
+  height: 250px;
+  width: 170px;
+  object-fit: cover; }
+
+.imagenesFormato2, main section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover; }
+
+/* estilo main pagina principal*/
+.imagenHombre {
+  grid-area: imagenMujer; }
+
+.imagenMujer {
+  grid-area: imagenHombre; }
+
+.imagenNiño {
+  grid-area: imagenNiño; }
+
+.imagenAccesorios {
+  grid-area: imagenAccesorios; }
+
+.frasePrincipal {
+  grid-area: frase;
+  font-size: 3rem;
+  background-color: rgba(255, 0, 0, 0.801); }
+
+main section div {
+  display: flex;
+  justify-content: center; }
+
+/*estilo pages ot-inv*/
+main section {
+  text-align: center; }
+
+/*estilo page contacto*/
+main form {
+  background-color: rgba(255, 255, 255, 0.699); }
+
+main fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+main legend {
+  font-family: "Medula One";
+  font-size: 2rem; }
+
+main label {
+  font-family: "Medula One";
+  font-size: 1.5rem; }
+
+main input {
+  font-family: "Medula One"; }
+
+main textarea {
+  font-family: "Medula One"; }
+
+main .instagram {
+  width: 10%;
+  height: 5%; }
+
+main .facebook {
+  width: 10%;
+  height: 5%; }
+
+/* estilos page nosotros*/
+main .nosotros {
+  background-color: rgba(255, 255, 255, 0.699); }
+
+main .mision {
+  font-family: "Medula One";
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline; }
+
+main .vision {
+  font-family: "Medula One";
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline; }
+
+main .objetivos {
+  font-family: "Medula One";
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline; }
+
+main p {
+  font-family: "Medula One";
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center; }
+
+.letraNav, header .dropdown-item {
+  font-family: "Medula One";
+  color: #f1eded;
+  font-size: 1.3rem; }
+
+.gridPaginap, .imagenesPrincipal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-areas: "imagenMujer imagenHombre"
+ "frase frase"
+ "imgenNiño imgenAccesorios";
+  align-items: center; }
+
+.imagenesFormato, .imagenHombre, .imagenMujer, .imagenNiño, .imagenAccesorios {
+  height: 250px;
+  width: 170px;
+  object-fit: cover; }
+
+.imagenesFormato2, main section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover; }
+
+.letraNav, header .dropdown-item {
+  font-family: "Medula One";
+  color: #f1eded;
+  font-size: 1.3rem; }
+
+.gridPaginap, .imagenesPrincipal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-areas: "imagenMujer imagenHombre"
+ "frase frase"
+ "imgenNiño imgenAccesorios";
+  align-items: center; }
+
+.imagenesFormato, .imagenHombre, .imagenMujer, .imagenNiño, .imagenAccesorios {
+  height: 250px;
+  width: 170px;
+  object-fit: cover; }
+
+.imagenesFormato2, main section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover; }
+
+/*estilo header*/
+header nav {
+  background-color: rgba(0, 0, 0, 0.801); }
+
+header .nav-link {
+  color: #f1eded; }
+
+header .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.801); }
+
+header .marquesinaPrincipal {
+  display: inline-block;
+  overflow: hidden;
+  text-align: initial;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+  font-family: "Medula One";
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.801); }
+
+header span {
+  color: #f1eded; }
+
+header .navbar-toggler {
+  background-color: #f1eded; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilo de body */
+body {
+  background-image: url(../img/mano.png);
+  background-size: 5rem; }
+
+/* Estilos nav */
+header .nav-link {
+  font-family: "Medula One";
+  color: #f1eded;
+  font-weight: bold;
+  font-size: 1.6rem; }

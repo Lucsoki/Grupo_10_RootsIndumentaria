@@ -1,0 +1,104 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/extend";
+@import "utilities/maps";
+
+/* estilo main pagina principal*/
+    .imagenesPrincipal{
+        @extend .gridPaginap
+    }
+    .imagenHombre{
+        grid-area: imagenMujer;
+        @extend .imagenesFormato
+    }
+    .imagenMujer{
+        grid-area: imagenHombre;
+        @extend .imagenesFormato
+    }
+    .imagenNiño{
+        grid-area: imagenNiño;
+        @extend .imagenesFormato
+    }
+    .imagenAccesorios{
+        grid-area: imagenAccesorios;
+        @extend .imagenesFormato
+    }
+    .frasePrincipal{
+        grid-area: frase;
+        font-size: 3rem;
+        background-color: $color-fondo3;
+    }
+    main section div{
+        display: flex;
+        justify-content: center;
+    }
+/*estilo pages ot-inv*/
+main{
+    section img{
+        @extend .imagenesFormato2
+    }
+    section{
+        text-align: center;
+    }
+}
+/*estilo page contacto*/
+main{
+    form{
+        background-color: $color-fondo2;
+    }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    legend{
+        font-family: $estilo-letra;
+        font-size: 2rem;
+    }
+    label{
+        font-family: $estilo-letra;
+        font-size: 1.5rem;
+    }
+    input{
+        font-family: $estilo-letra;
+    }
+    textarea{
+        font-family: $estilo-letra;
+    }
+    .instagram{
+        @include medidas (10%,5%)
+    }
+    .facebook{
+        @include medidas (10%,5%)
+    }
+}
+/* estilos page nosotros*/
+main{
+    .nosotros{
+        background-color: $color-fondo2;
+    }
+    .mision{
+        font-family:$estilo-letra;
+        font-size: map-get($map: $tituloComun, $key:4rem );
+        @include texto (bold, center)
+        text-decoration:$subrayado;
+    }
+    .vision{
+        font-family:$estilo-letra;
+        font-size: map-get($map: $tituloPrincipal, $key:5rem );
+        @include texto (bold, center)
+        text-decoration:$subrayado;
+    }
+    .objetivos{
+        font-family:$estilo-letra;
+        font-size: map-get($map: $tituloSecundario, $key:3rem );
+        @include texto (bold, center)
+        text-decoration:$subrayado;
+    }
+    p{
+        font-family: $estilo-letra;
+        font-size: 1.4rem; 
+        @include texto (bold, center)
+    }
+}

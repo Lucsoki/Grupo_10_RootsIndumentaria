@@ -1,0 +1,35 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/extend";
+@import "utilities/maps";
+/*estilo header*/
+header{
+    nav{
+        background-color: $color-fondo;
+    }
+    .dropdown-item{
+        @extend .letraNav
+    }
+    .nav-link{
+        color: $color-letra;
+    }
+    .dropdown-menu{
+        background-color: $color-fondo;
+    }
+    .marquesinaPrincipal{
+        display: inline-block;
+        overflow: hidden;
+        text-align: initial;
+        white-space: nowrap;
+        margin-top: 0.5rem;
+        font-family: $estilo-letra;
+        font-size: 1.2rem;
+        background-color: $color-fondo;
+    }
+    span{
+        color: $color-letra;
+    }
+    .navbar-toggler{
+        background-color: $color-letra;
+    }
+}

@@ -1,0 +1,8 @@
+@mixin medidas ($widht, $height) {
+    width: $widht;
+    height: $height;
+}
+@mixin texto ($font-weight,$text-aling) {
+    font-weight: $font-weight;
+    text-align: $text-aling;
+}

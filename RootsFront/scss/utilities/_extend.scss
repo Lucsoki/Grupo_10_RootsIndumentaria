@@ -1,0 +1,27 @@
+@import "variables";
+.letraNav{
+    font-family: $estilo-letra;
+    color: $color-letra;
+    font-size:$size-letra;
+}
+.gridPaginap{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.2fr 1fr;
+        grid-column-gap:1rem;
+        grid-row-gap:1rem;
+        grid-template-areas: "imagenMujer imagenHombre"
+                             "frase frase"
+                             "imgenNiño imgenAccesorios";
+        align-items: center;
+}
+.imagenesFormato{
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+}
+.imagenesFormato2{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}

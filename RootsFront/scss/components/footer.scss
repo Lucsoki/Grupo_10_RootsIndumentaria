@@ -1,0 +1,15 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/extend";
+@import "utilities/maps";
+/* estilo footer*/
+footer{
+    .copyRight{
+        background-color: $color-fondo;
+        font-family: $estilo-letra;
+        font-size: 1.2rem;
+        color: $color-letra;
+        text-align: center;
+    }
+}
+

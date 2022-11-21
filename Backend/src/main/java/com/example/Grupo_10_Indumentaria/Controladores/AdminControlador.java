@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "api/v1/Admins")
+@RequestMapping(path = "api/v1/admins")
 public class AdminControlador extends BaseControladorImpl<Admin, AdminServicioImpl> {
 
     @GetMapping("/search")

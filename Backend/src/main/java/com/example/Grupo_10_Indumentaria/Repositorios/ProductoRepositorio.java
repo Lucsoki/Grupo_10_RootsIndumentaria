@@ -13,7 +13,7 @@ import java.util.List;
 @Repository
 public interface ProductoRepositorio extends BaseRepositorio<Producto, Long> {
 
-    List<Producto> findByNombreContainingOrColorContaining(String nombre, String color);
+    /*List<Producto> findByNombreContainingOrColorContaining(String nombre, String color);
     Page<Producto> findByNombreContainingOrColorContaining(String nombre, Pageable pageable);
 
     //boolean existsByDni(int dni);
@@ -29,5 +29,5 @@ public interface ProductoRepositorio extends BaseRepositorio<Producto, Long> {
 
     @Query(value = "SELECT * FROM producto WHERE producto.nombre LIKE %:filtro% OR producto.color LIKE %:filtro%"
             ,countQuery = "SELECT count(*) FROM producto", nativeQuery = true)
-    Page<Producto> searchNativo(@Param("filtro") String filtro, Pageable pageable);
+    Page<Producto> searchNativo(@Param("filtro") String filtro, Pageable pageable);*/
 }

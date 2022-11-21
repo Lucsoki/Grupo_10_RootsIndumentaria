@@ -15,11 +15,11 @@ public class AdminServicioImpl extends BaseServicioImpl<Admin, Long> {
     @Autowired
     private AdminRepositorio adminRepositorio;
 
-    public AdminServicioImpl(BaseRepositorio<Admin, Long> baseRepositorio, AdminRepositorio adminRepositorio) {
+    public AdminServicioImpl(BaseRepositorio<Admin, Long> baseRepositorio) {
         super(baseRepositorio);
     }
 
-    public List<Admin> search(String filtro) throws Exception {
+    /*public List<Admin> search(String filtro) throws Exception {
         try {
             //List<Admin> admins = adminRepositorio.findByNombreContainingOrMailContaining(filtro, filtro);
             //List<Admin> admins= adminRepositorio.search(filtro);
@@ -39,5 +39,5 @@ public class AdminServicioImpl extends BaseServicioImpl<Admin, Long> {
         }catch (Exception e){
             throw new Exception(e.getMessage());
         }
-    }
+    }*/
 }

@@ -20,7 +20,7 @@ public class ProductoServicioImpl extends BaseServicioImpl<Producto,Long>{
         super(baseRepositorio);
     }
 
-    public List<Producto> search(String filtro) throws Exception {
+    /*public List<Producto> search(String filtro) throws Exception {
         try {
             //List<Producto> prductos = productoRepositorio.findByNombreContainingOrColorContaining(filtro, filtro);
             //List<Producto> prductos= productoRepositorio.search(filtro);
@@ -40,5 +40,5 @@ public class ProductoServicioImpl extends BaseServicioImpl<Producto,Long>{
         }catch (Exception e){
             throw new Exception(e.getMessage());
         }
-    }
+    }*/
 }

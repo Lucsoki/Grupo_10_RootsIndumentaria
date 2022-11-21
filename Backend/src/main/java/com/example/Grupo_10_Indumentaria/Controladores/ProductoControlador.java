@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "api/v1/Productos")
+@RequestMapping(path = "api/v1/productos")
 public class ProductoControlador extends BaseControladorImpl<Producto, ProductoServicioImpl> {
 
-    @GetMapping("/search")
+    /*@GetMapping("/search")
     public ResponseEntity<?> search(@RequestParam String filtro){
         try{
             return ResponseEntity.status(HttpStatus.OK).body(servicio.search(filtro));
@@ -28,5 +28,5 @@ public class ProductoControlador extends BaseControladorImpl<Producto, ProductoS
         }catch (Exception e){
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(("{\"error\":\""+ e.getMessage()+"\"}"));
         }
-    }
+    }*/
 }

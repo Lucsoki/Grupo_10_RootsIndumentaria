@@ -19,7 +19,6 @@ public class ClienteServicioImpl extends BaseServicioImpl<Cliente, Long> {
         super(baseRepositorio);
     }
 
-
     public List<Cliente> search(String filtro) throws Exception {
         try {
             //List<Cliente> clientes = clienteRepositorio.findByNombreContainingOrApellidoContaining(filtro, filtro);

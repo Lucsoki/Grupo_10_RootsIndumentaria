@@ -22,12 +22,12 @@ public interface ClienteRepositorio extends BaseRepositorio<Cliente, Long> {
     @Query(value = "SELECT c FROM Cliente c WHERE c.nombre LIKE %:filtro% OR c.apellido LIKE %:filtro%")
     Page<Cliente> search(@Param("filtro") String filtro, Pageable pageable);
 
-    @Query(value = "SELECT * FROM cliente WHERE cliente.nombre LIKE %:filtro% OR cliente.apellido LIKE %:filtro%"
+    @Query(value = "SELECT * FROM Cliente WHERE Cliente.nombre LIKE %:filtro% OR Cliente.apellido LIKE %:filtro%"
             , nativeQuery = true)
     List<Cliente> searchNativo(@Param("filtro") String filtro);
 
-    @Query(value = "SELECT * FROM cliente WHERE cliente.nombre LIKE %:filtro% OR cliente.apellido LIKE %:filtro%"
-            ,countQuery = "SELECT count(*) FROM cliente", nativeQuery = true)
+    @Query(value = "SELECT * FROM Cliente WHERE Cliente.nombre LIKE %:filtro% OR Cliente.apellido LIKE %:filtro%"
+            ,countQuery = "SELECT count(*) FROM Cliente", nativeQuery = true)
     Page<Cliente> searchNativo(@Param("filtro") String filtro, Pageable pageable);
 
 

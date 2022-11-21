@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path = "api/v1/admins")
 public class AdminControlador extends BaseControladorImpl<Admin, AdminServicioImpl> {
 
-    @GetMapping("/search")
+    /*@GetMapping("/search")
     public ResponseEntity<?> search(@RequestParam String filtro){
         try{
             return ResponseEntity.status(HttpStatus.OK).body(servicio.search(filtro));
@@ -28,5 +28,5 @@ public class AdminControlador extends BaseControladorImpl<Admin, AdminServicioIm
         }catch (Exception e){
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(("{\"error\":\""+ e.getMessage()+"\"}"));
         }
-    }
+    }*/
 }

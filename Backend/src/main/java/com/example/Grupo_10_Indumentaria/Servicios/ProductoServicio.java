@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface ProductoServicio extends BaseServicio<Producto, Long>{
 
-    List<Producto> search (String filtro) throws Exception;
+    //List<Producto> search (String filtro) throws Exception;
 
-    Page<Producto> search (String filtro, Pageable pageable) throws Exception;
+    //Page<Producto> search (String filtro, Pageable pageable) throws Exception;
 }

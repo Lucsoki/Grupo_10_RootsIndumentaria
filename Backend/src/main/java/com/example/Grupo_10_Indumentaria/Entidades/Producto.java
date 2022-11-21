@@ -1,5 +1,6 @@
 package com.example.Grupo_10_Indumentaria.Entidades;
 
+import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,6 +20,7 @@ import java.util.List;
 @Audited
 public class Producto extends Base {
 
+    @NotNull
     @Column(name = "Nombre")
     private String nombre;
 
@@ -30,6 +32,10 @@ public class Producto extends Base {
 
     @Column(name = "Color")
     private String color;
+
+    @NotNull
+    @Column(name = "Tipo")
+    private String tipo;
 
     @ManyToMany(cascade = CascadeType.REFRESH)
     private List<Cliente> clientes;
